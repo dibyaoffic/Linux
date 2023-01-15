@@ -1,0 +1,34 @@
+Password1@ mysql
+
+sudo systemctl start mysql.service
+sudo systemctl stop mysql.service
+
+
+Fish(dosen't support bash script)
+chsh -s $(which fish)
+
+omf update
+omf install aight
+
+For, update all packages, just write:
+1
+	
+omf update
+
+For, selectively update packages, we will only have to include the names of the packages as shown below:
+1
+	
+omf update weather
+Show information about a package
+
+When you want know the information about a theme or plugin, we can use the command:
+1
+	
+omf describe ocean
+Remove packages
+
+To remove a package such as weather, we will have to execute:
+	
+omf remove weather
+
+fish_add_path /home/dibya/nodejs/bin
