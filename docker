@@ -1,0 +1,22 @@
+~/Downloads/Docker took 8s 
+❯ sudo service docker start
+
+~/Downloads/Docker 
+❯ sudo docker run hello-world
+
+~/Downloads/Docker 
+❯ systemctl --user start docker-desktop
+
+~/Downloads/Docker 
+❯ systemctl --user stop docker-desktop
+
+~/Downloads/Docker 
+❯ sudo service docker start
+
+~/Downloads/Docker 
+❯ systemctl --user start docker-desktop
+
+~/Downloads/Docker 
+❯ systemctl --user stop docker-desktop
+
+docker require VT-Enable 
